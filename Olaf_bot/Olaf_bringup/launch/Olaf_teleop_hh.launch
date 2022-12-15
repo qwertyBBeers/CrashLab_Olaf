@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="Olaf_teleop" type="Olaf_teleop_key" name="Olaf_teleop_keyboard"  output="screen"/>
+  <node pkg="Olaf_bringup" type="velCal" name="velCal"  output="screen"/>
+
+</launch>
